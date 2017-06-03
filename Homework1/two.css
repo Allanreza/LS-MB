@@ -1,0 +1,48 @@
+#shape-holder {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.red-shape {
+  background: red;
+  height: 13%;
+  width: 100%;
+  position: relative;
+}
+
+.blue-shape {
+  background: blue;
+  height: 77%;
+  width: 33.33%;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+.purple-shape {
+  background: purple;
+  height: 77%;
+  width: 33.33%;
+  position: relative;
+  display: inline-block;
+}
+
+.yellow-shape {
+  background: yellow;
+  height: 77%;
+  width: 33.33%;
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.green-shape {
+  background: green;
+  height: 13%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
